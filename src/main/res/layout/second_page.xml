@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonSecond"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:text="beautiful picture of PARIS"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/buttonSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/text2"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="86dp"
+            android:layout_marginEnd="74dp"
+            android:onClick="onClick"
+            android:text="Go BAck" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text2"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/asdfg" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
